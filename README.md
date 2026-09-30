@@ -202,31 +202,7 @@ A ficha deve conter, no mínimo:
 
 ---
 
-## 🚀 Entrega
-
-1. No **seu fork**, crie uma branch a partir da `master` com o nome `prova/SEU_RA` (ex.: `prova/123456`):
-   ```bash
-   git checkout master
-   git pull origin master
-   git checkout -b prova/SEU_RA
-   ```
-2. Adicione e commite seus arquivos:
-   ```bash
-   git add entregas/SEU_RA/
-   git commit -m "prova: entrega RA SEU_RA"
-   ```
-3. Suba a branch para o **seu fork**:
-   ```bash
-   git push origin prova/SEU_RA
-   ```
-4. No GitHub, abra um **Pull Request** do seu fork para o repositório do professor (`master`) com o título:
-   ```
-   [Prova] Entrega - RA SEU_RA
-   ```
-5. Aguarde a validação do CI (GitHub Actions) e a revisão do professor.
-
----
-
+## 🚀git config --get user.name
 ## 📊 Distribuição de Pontos
 
 | Questão | Tema | Aula | Pontos |
